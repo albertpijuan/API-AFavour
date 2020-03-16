@@ -8,7 +8,7 @@ services:
     environment:
       - DAMCore_DB_HOST=mysql_db_container
     volumes:
-      - ../../DAM-ProjectCore-master/.:/app
+      - ../../DAM-ProjectCore/.:/app
     tty: true
     links:
       - adminer_container
