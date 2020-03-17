@@ -60,7 +60,11 @@ if __name__ == "__main__":
         name="usuari",
         surname="1",
         birthdate=datetime.datetime(1989, 1, 1),
-        genere=GenereEnum.male
+        genere=GenereEnum.male,
+        stars = 1.3,
+        favoursDone=23,
+        location= "08700 Catalunya, Igualada"
+
     )
     user_1.set_password("a1s2d3f4")
     user_1.tokens.append(UserToken(token="656e50e154865a5dc469b80437ed2f963b8f58c8857b66c9bf"))
